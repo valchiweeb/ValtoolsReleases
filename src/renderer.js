@@ -212,37 +212,63 @@ function showNoInternetSplash() {
     });
 }
 
-// Show internet disconnected warning modal
+// State for internet warning (to prevent rapid show/hide)
+let isWarningVisible = false;
+let warningDebounceTimer = null;
+
+// Show internet disconnected warning as non-blocking toast
 function showInternetWarning() {
+    // Debounce to prevent rapid show/hide
+    if (warningDebounceTimer) return;
+    if (isWarningVisible) return;
+
+    isWarningVisible = true;
     const modal = document.getElementById('internet-warning-modal');
     if (modal) {
         modal.style.display = 'flex';
     }
+
+    // Prevent rapid toggling for 5 seconds
+    warningDebounceTimer = setTimeout(() => {
+        warningDebounceTimer = null;
+    }, 5000);
 }
 
 // Hide internet warning modal
 function hideInternetWarning() {
+    if (!isWarningVisible) return;
+
+    isWarningVisible = false;
     const modal = document.getElementById('internet-warning-modal');
     if (modal) {
         modal.style.display = 'none';
     }
 }
 
-// Start monitoring internet connection
+// Start monitoring internet connection (less aggressive)
 function startInternetMonitor() {
-    // Check every 10 seconds
+    // Check every 30 seconds (less aggressive)
     internetCheckInterval = setInterval(async () => {
-        const online = await checkInternetConnection();
-        if (!online) {
-            showInternetWarning();
-        } else {
-            hideInternetWarning();
+        try {
+            const online = await checkInternetConnection();
+            if (!online) {
+                showInternetWarning();
+            } else {
+                hideInternetWarning();
+            }
+        } catch (e) {
+            // Ignore errors, don't show warning for transient issues
+            console.log('Internet check error:', e);
         }
-    }, 10000);
+    }, 30000);
 
-    // Also listen for browser online/offline events
+    // Listen for browser online/offline events (debounced)
     window.addEventListener('offline', () => {
-        showInternetWarning();
+        setTimeout(() => {
+            if (!navigator.onLine) {
+                showInternetWarning();
+            }
+        }, 2000); // Wait 2 seconds to confirm
     });
 
     window.addEventListener('online', () => {

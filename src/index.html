@@ -302,15 +302,13 @@
         </div>
     </div>
 
-    <!-- Internet Warning Modal -->
-    <div id="internet-warning-modal" class="custom-modal internet-warning-overlay" style="display: none;">
-        <div class="internet-warning-card">
-            <div class="warning-icon-circle">
-                <span class="warning-icon">📡</span>
-            </div>
-            <h2>Koneksi Terputus!</h2>
-            <p>Tidak dapat terhubung ke internet. Beberapa fitur mungkin tidak berfungsi.</p>
-            <p class="warning-subtext">Harap periksa koneksi internet Anda.</p>
+    <!-- Internet Warning Toast (non-blocking) -->
+    <div id="internet-warning-modal" class="internet-warning-toast" style="display: none;">
+        <div class="toast-content">
+            <span class="toast-icon">📡</span>
+            <span class="toast-text">Koneksi internet terputus</span>
+            <button class="toast-close"
+                onclick="document.getElementById('internet-warning-modal').style.display='none'">✕</button>
         </div>
     </div>
 
