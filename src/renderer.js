@@ -216,6 +216,19 @@ function showNoInternetSplash() {
 let isWarningVisible = false;
 let warningDebounceTimer = null;
 
+// Clear account data from memory for security
+function clearAccountData() {
+    accounts = {};
+    selectedAccount = null;
+    selectedGame = null;
+
+    // Clear the UI
+    renderGameGrid();
+    showGameView();
+
+    console.log('Account data cleared from memory for security');
+}
+
 // Show internet disconnected warning as non-blocking toast
 function showInternetWarning() {
     // Debounce to prevent rapid show/hide
@@ -228,14 +241,17 @@ function showInternetWarning() {
         modal.style.display = 'flex';
     }
 
+    // SECURITY: Clear account data from memory when internet disconnects
+    clearAccountData();
+
     // Prevent rapid toggling for 5 seconds
     warningDebounceTimer = setTimeout(() => {
         warningDebounceTimer = null;
     }, 5000);
 }
 
-// Hide internet warning modal
-function hideInternetWarning() {
+// Hide internet warning modal and reload data
+async function hideInternetWarning() {
     if (!isWarningVisible) return;
 
     isWarningVisible = false;
@@ -243,6 +259,10 @@ function hideInternetWarning() {
     if (modal) {
         modal.style.display = 'none';
     }
+
+    // SECURITY: Reload account data from cloud when internet comes back
+    console.log('Internet reconnected, reloading account data...');
+    await loadCloudData();
 }
 
 // Start monitoring internet connection (less aggressive)
