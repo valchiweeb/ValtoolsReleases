@@ -3,6 +3,7 @@ const path = require('path');
 const { spawn } = require('child_process');
 const fs = require('fs');
 const { autoUpdater } = require('electron-updater');
+const { exec } = require('child_process');
 
 let mainWindow;
 let overlayWindow;
@@ -24,6 +25,10 @@ autoUpdater.setFeedURL({
 
 // Settings file path
 const settingsPath = path.join(app.getPath('userData'), 'settings.json');
+const injectedGamesPath = path.join(app.getPath('userData'), 'injected_games.json');
+
+// Depot keys cache for game injection
+let depotKeysCache = null;
 
 // Auto-updater events - Forced update mode
 function setupAutoUpdater() {
@@ -609,6 +614,479 @@ ipcMain.handle('abort-injection', () => {
         return true;
     }
     return false;
+});
+
+// ========================================
+// GAME INJECTION - Steam Path Detection
+// ========================================
+
+function getSteamPathForInjection() {
+    // Check settings first for custom path
+    const settings = loadSettings();
+    if (settings.customSteamPath && fs.existsSync(settings.customSteamPath)) {
+        return settings.customSteamPath;
+    }
+
+    const possiblePaths = [
+        'C:\\Program Files (x86)\\Steam',
+        'C:\\Program Files\\Steam',
+        'D:\\Steam',
+        'D:\\Program Files (x86)\\Steam',
+        'E:\\Steam'
+    ];
+
+    // Try registry
+    try {
+        const { execSync } = require('child_process');
+        const result = execSync('reg query "HKEY_CURRENT_USER\\SOFTWARE\\Valve\\Steam" /v SteamPath', { encoding: 'utf8' });
+        const match = result.match(/SteamPath\s+REG_SZ\s+(.+)/);
+        if (match && match[1]) {
+            const steamPath = match[1].trim().replace(/\//g, '\\');
+            if (fs.existsSync(steamPath)) {
+                return steamPath;
+            }
+        }
+    } catch (e) { }
+
+    try {
+        const { execSync } = require('child_process');
+        const result = execSync('reg query "HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\Valve\\Steam" /v InstallPath', { encoding: 'utf8' });
+        const match = result.match(/InstallPath\s+REG_SZ\s+(.+)/);
+        if (match && match[1]) {
+            const steamPath = match[1].trim();
+            if (fs.existsSync(steamPath)) {
+                return steamPath;
+            }
+        }
+    } catch (e) { }
+
+    for (const p of possiblePaths) {
+        if (fs.existsSync(p)) return p;
+    }
+
+    return null;
+}
+
+function getSteamToolsPath(steamPath) {
+    const stPluginPath = path.join(steamPath, 'config', 'stplug-in');
+    if (!fs.existsSync(stPluginPath)) {
+        try {
+            fs.mkdirSync(stPluginPath, { recursive: true });
+        } catch (e) {
+            console.error('Failed to create stplug-in folder:', e);
+        }
+    }
+    return stPluginPath;
+}
+
+// ========================================
+// GAME INJECTION - Activate Inject (Copy DLLs)
+// ========================================
+
+function getPluginSteamPath() {
+    const folderPath = path.join(__dirname, 'assets', 'PluginSteam');
+    if (fs.existsSync(folderPath)) {
+        return folderPath;
+    }
+    return null;
+}
+
+function copyFolderSync(src, dest) {
+    if (!fs.existsSync(dest)) {
+        fs.mkdirSync(dest, { recursive: true });
+    }
+
+    const entries = fs.readdirSync(src, { withFileTypes: true });
+
+    for (const entry of entries) {
+        const srcPath = path.join(src, entry.name);
+        const destPath = path.join(dest, entry.name);
+
+        if (entry.isDirectory()) {
+            copyFolderSync(srcPath, destPath);
+        } else {
+            fs.copyFileSync(srcPath, destPath);
+        }
+    }
+}
+
+async function activateInject() {
+    try {
+        const steamPath = getSteamPathForInjection();
+        if (!steamPath) {
+            return { success: false, error: 'Steam path tidak ditemukan. Atur di Settings.' };
+        }
+
+        const pluginSteamPath = getPluginSteamPath();
+        if (!pluginSteamPath) {
+            return { success: false, error: 'Folder PluginSteam tidak ditemukan di assets' };
+        }
+
+        // Copy DLLs to Steam root folder
+        const entries = fs.readdirSync(pluginSteamPath);
+        for (const file of entries) {
+            const srcPath = path.join(pluginSteamPath, file);
+            const destPath = path.join(steamPath, file);
+
+            // Backup existing file if exists
+            if (fs.existsSync(destPath)) {
+                const backupPath = destPath + '.backup';
+                if (!fs.existsSync(backupPath)) {
+                    fs.copyFileSync(destPath, backupPath);
+                }
+            }
+
+            fs.copyFileSync(srcPath, destPath);
+        }
+
+        return { success: true, message: 'Inject berhasil diaktifkan!' };
+    } catch (error) {
+        return { success: false, error: error.message };
+    }
+}
+
+// ========================================
+// GAME INJECTION - Restart Steam
+// ========================================
+
+function restartSteamForInjection() {
+    return new Promise((resolve) => {
+        try {
+            const steamPath = getSteamPathForInjection();
+            if (!steamPath) {
+                resolve({ success: false, error: 'Steam path not found' });
+                return;
+            }
+
+            const steamExe = path.join(steamPath, 'steam.exe');
+            if (!fs.existsSync(steamExe)) {
+                resolve({ success: false, error: 'Steam.exe not found' });
+                return;
+            }
+
+            // Use Steam's own shutdown command
+            exec(`"${steamExe}" -shutdown`, (error) => {
+                setTimeout(() => {
+                    exec('taskkill /IM steam.exe 2>nul', () => {
+                        setTimeout(() => {
+                            shell.openPath(steamExe).then((err) => {
+                                if (err) {
+                                    resolve({ success: false, error: err });
+                                } else {
+                                    resolve({ success: true });
+                                }
+                            });
+                        }, 2000);
+                    });
+                }, 5000);
+            });
+        } catch (error) {
+            resolve({ success: false, error: error.message });
+        }
+    });
+}
+
+// ========================================
+// GAME INJECTION - Game Info & DLC Fetching
+// ========================================
+
+function fetchUrlForInjection(url) {
+    return new Promise((resolve, reject) => {
+        https.get(url, (res) => {
+            let data = '';
+            res.on('data', chunk => data += chunk);
+            res.on('end', () => resolve(data));
+        }).on('error', reject);
+    });
+}
+
+async function fetchGameInfo(appId) {
+    try {
+        const url = `https://store.steampowered.com/api/appdetails?appids=${appId}&cc=us&l=en`;
+        const response = await fetchUrlForInjection(url);
+        const json = JSON.parse(response);
+
+        if (!json[appId] || !json[appId].success) {
+            return { success: false, error: 'Game tidak ditemukan' };
+        }
+
+        const data = json[appId].data;
+        const gameInfo = {
+            appId: appId,
+            name: data.name,
+            type: data.type,
+            dlcs: [],
+            depots: {}
+        };
+
+        // Get DLCs
+        if (data.dlc && data.dlc.length > 0) {
+            for (const dlcId of data.dlc) {
+                try {
+                    const dlcUrl = `https://store.steampowered.com/api/appdetails?appids=${dlcId}&cc=us&l=en`;
+                    const dlcResponse = await fetchUrlForInjection(dlcUrl);
+                    const dlcJson = JSON.parse(dlcResponse);
+
+                    if (dlcJson[dlcId] && dlcJson[dlcId].success) {
+                        gameInfo.dlcs.push({
+                            appId: dlcId,
+                            name: dlcJson[dlcId].data.name
+                        });
+                    } else {
+                        gameInfo.dlcs.push({
+                            appId: dlcId,
+                            name: `DLC ${dlcId}`
+                        });
+                    }
+                } catch (e) {
+                    gameInfo.dlcs.push({
+                        appId: dlcId,
+                        name: `DLC ${dlcId}`
+                    });
+                }
+            }
+        }
+
+        return { success: true, data: gameInfo };
+    } catch (error) {
+        return { success: false, error: error.message };
+    }
+}
+
+// ========================================
+// GAME INJECTION - Depot Keys & Lua Generation
+// ========================================
+
+async function loadDepotKeys() {
+    if (depotKeysCache) return depotKeysCache;
+
+    try {
+        const url = 'https://raw.githubusercontent.com/SteamAutoCracks/ManifestHub/main/depotkeys.json';
+        const response = await fetchUrlForInjection(url);
+
+        if (response) {
+            depotKeysCache = JSON.parse(response);
+            console.log(`Loaded ${Object.keys(depotKeysCache).length} depot keys`);
+            return depotKeysCache;
+        }
+        return null;
+    } catch (error) {
+        console.error('Failed to load depot keys:', error);
+        return null;
+    }
+}
+
+function findDepotsForApp(appId, depotKeys) {
+    const gameDepots = [];
+    const appIdStr = String(appId);
+    const appIdInt = parseInt(appId);
+
+    for (const [depotId, key] of Object.entries(depotKeys)) {
+        try {
+            const depotInt = parseInt(depotId);
+            if (depotId.startsWith(appIdStr) ||
+                (depotInt >= appIdInt && depotInt < appIdInt + 100)) {
+                gameDepots.push({ depotId, key });
+            }
+        } catch (e) { }
+    }
+
+    return gameDepots;
+}
+
+function generateLuaFromDepotKeys(appId, gameName, mainDepots, dlcDepots) {
+    let lua = `-- ${gameName}\n`;
+    lua += `-- Generated by ValTools\n`;
+    lua += `-- App ID: ${appId}\n`;
+
+    const totalDepots = mainDepots.length + dlcDepots.reduce((sum, dlc) => sum + dlc.depots.length, 0);
+    lua += `-- Total Depots: ${totalDepots}\n\n`;
+
+    lua += `addappid(${appId})\n`;
+    for (const depot of mainDepots) {
+        if (depot.key && depot.key.length > 0) {
+            lua += `addappid(${depot.depotId}, 0, "${depot.key}")\n`;
+        } else {
+            lua += `addappid(${depot.depotId}, 0, "")\n`;
+        }
+    }
+
+    for (const dlc of dlcDepots) {
+        if (dlc.depots.length > 0) {
+            lua += `\n-- DLC: ${dlc.name}\n`;
+            lua += `addappid(${dlc.appId})\n`;
+            for (const depot of dlc.depots) {
+                if (depot.key && depot.key.length > 0) {
+                    lua += `addappid(${depot.depotId}, 0, "${depot.key}")\n`;
+                } else {
+                    lua += `addappid(${depot.depotId}, 0, "")\n`;
+                }
+            }
+        }
+    }
+
+    return lua;
+}
+
+async function fetchLuaFromManifestHub(appId, gameName, dlcs = []) {
+    try {
+        // First try to get lua file directly from GitHub branch
+        const luaUrl = `https://raw.githubusercontent.com/SteamAutoCracks/ManifestHub/${appId}/${appId}.lua`;
+        const luaResponse = await fetchUrlForInjection(luaUrl);
+
+        if (luaResponse && luaResponse.includes('addappid')) {
+            return { success: true, lua: luaResponse, source: 'ManifestHub' };
+        }
+
+        // Fallback: Generate from depot keys database
+        const depotKeys = await loadDepotKeys();
+        if (!depotKeys) {
+            return { success: false, error: 'Could not load depot keys database' };
+        }
+
+        const mainDepots = findDepotsForApp(appId, depotKeys);
+
+        const dlcDepots = [];
+        for (const dlc of dlcs) {
+            const dlcDepotsFound = findDepotsForApp(dlc.appId, depotKeys);
+            if (dlcDepotsFound.length > 0) {
+                dlcDepots.push({
+                    appId: dlc.appId,
+                    name: dlc.name,
+                    depots: dlcDepotsFound
+                });
+            }
+        }
+
+        const totalDepots = mainDepots.length + dlcDepots.reduce((sum, dlc) => sum + dlc.depots.length, 0);
+        if (totalDepots === 0) {
+            return { success: false, error: 'No depot keys found for this game or its DLCs' };
+        }
+
+        const lua = generateLuaFromDepotKeys(appId, gameName || `App ${appId}`, mainDepots, dlcDepots);
+        return { success: true, lua: lua, source: 'Generated', depotCount: totalDepots };
+
+    } catch (error) {
+        return { success: false, error: error.message };
+    }
+}
+
+// ========================================
+// GAME INJECTION - Inject/Remove Game
+// ========================================
+
+async function injectGame(gameData) {
+    try {
+        const steamPath = getSteamPathForInjection();
+        if (!steamPath) {
+            return { success: false, error: 'Steam tidak ditemukan' };
+        }
+
+        const stPluginPath = getSteamToolsPath(steamPath);
+
+        const manifestHubResult = await fetchLuaFromManifestHub(gameData.appId, gameData.name, gameData.dlcs || []);
+
+        if (!manifestHubResult.success) {
+            return {
+                success: false,
+                error: `Game "${gameData.name}" tidak ditemukan di database. ${manifestHubResult.error || ''}`
+            };
+        }
+
+        const luaScript = manifestHubResult.lua;
+        const luaPath = path.join(stPluginPath, `${gameData.appId}.lua`);
+        fs.writeFileSync(luaPath, luaScript, 'utf8');
+
+        await addToInjectedList(gameData);
+
+        return {
+            success: true,
+            message: 'Game berhasil di-inject!'
+        };
+    } catch (error) {
+        return { success: false, error: error.message };
+    }
+}
+
+async function removeGame(appId) {
+    try {
+        const steamPath = getSteamPathForInjection();
+        if (!steamPath) {
+            return { success: false, error: 'Steam tidak ditemukan' };
+        }
+
+        const stPluginPath = getSteamToolsPath(steamPath);
+        const luaPath = path.join(stPluginPath, `${appId}.lua`);
+        if (fs.existsSync(luaPath)) {
+            fs.unlinkSync(luaPath);
+        }
+
+        await removeFromInjectedList(appId);
+
+        return { success: true };
+    } catch (error) {
+        return { success: false, error: error.message };
+    }
+}
+
+// ========================================
+// GAME INJECTION - Injected Games List
+// ========================================
+
+async function getInjectedGames() {
+    try {
+        if (fs.existsSync(injectedGamesPath)) {
+            return JSON.parse(fs.readFileSync(injectedGamesPath, 'utf8'));
+        }
+        return [];
+    } catch (e) {
+        return [];
+    }
+}
+
+async function addToInjectedList(gameData) {
+    let games = await getInjectedGames();
+    games = games.filter(g => g.appId !== gameData.appId);
+
+    games.unshift({
+        appId: gameData.appId,
+        name: gameData.name,
+        dlcCount: gameData.dlcs?.length || 0,
+        timestamp: Date.now()
+    });
+
+    fs.writeFileSync(injectedGamesPath, JSON.stringify(games, null, 2));
+}
+
+async function removeFromInjectedList(appId) {
+    let games = await getInjectedGames();
+    games = games.filter(g => g.appId !== appId);
+    fs.writeFileSync(injectedGamesPath, JSON.stringify(games, null, 2));
+}
+
+// ========================================
+// GAME INJECTION - IPC Handlers
+// ========================================
+
+ipcMain.handle('get-steam-path-inject', () => getSteamPathForInjection());
+ipcMain.handle('get-steam-tools-path', (event, steamPath) => getSteamToolsPath(steamPath));
+ipcMain.handle('fetch-game-info', async (event, appId) => fetchGameInfo(appId));
+ipcMain.handle('inject-game', async (event, gameData) => injectGame(gameData));
+ipcMain.handle('remove-game', async (event, appId) => removeGame(appId));
+ipcMain.handle('get-injected-games', async () => getInjectedGames());
+ipcMain.handle('activate-inject', async () => activateInject());
+ipcMain.handle('restart-steam-inject', () => restartSteamForInjection());
+
+ipcMain.handle('browse-steam-folder', async () => {
+    const result = await dialog.showOpenDialog(mainWindow, {
+        properties: ['openDirectory'],
+        title: 'Select Steam Installation Folder'
+    });
+
+    if (!result.canceled && result.filePaths.length > 0) {
+        return result.filePaths[0];
+    }
+    return null;
 });
 
 app.whenReady().then(() => {

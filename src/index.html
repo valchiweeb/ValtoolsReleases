@@ -58,6 +58,10 @@
                     <span class="nav-icon">🏠</span>
                     <span class="nav-text">Dashboard</span>
                 </button>
+                <button class="nav-btn" data-view="gameinjection">
+                    <span class="nav-icon">🎮</span>
+                    <span class="nav-text">Game Injection</span>
+                </button>
                 <!-- Menu Steam Guard disembunyikan -->
                 <button class="nav-btn" data-view="steamguard" style="display: none;">
                     <span class="nav-icon">🛡️</span>
@@ -241,6 +245,83 @@
                     </div>
                 </div>
             </section>
+
+            <!-- Game Injection View -->
+            <section class="view" id="view-gameinjection">
+                <div class="gi-container">
+                    <!-- Action Bar -->
+                    <div class="gi-actions-bar">
+                        <button class="gi-action-btn gi-activate-btn" id="gi-activate-inject-btn">
+                            <span class="gi-action-icon">🔓</span>
+                            <span>Activate Inject</span>
+                        </button>
+                        <button class="gi-action-btn gi-restart-btn" id="gi-restart-steam-btn">
+                            <span class="gi-action-icon">🔄</span>
+                            <span>Restart Steam</span>
+                        </button>
+                        <button class="gi-action-btn gi-settings-btn" id="gi-settings-btn">
+                            <span class="gi-action-icon">⚙️</span>
+                            <span>Steam Path</span>
+                        </button>
+                    </div>
+
+                    <!-- Main Card -->
+                    <div class="gi-card">
+                        <div class="gi-card-header">
+                            <span class="gi-card-icon">🎮</span>
+                            <h2>Game Injection</h2>
+                        </div>
+
+                        <div class="gi-info-box">
+                            <span class="gi-info-icon">ℹ️</span>
+                            <span>Masukkan <strong>Game ID</strong> atau paste Steam URL untuk inject</span>
+                        </div>
+
+                        <div class="gi-input-group">
+                            <label>GAME ID / URL</label>
+                            <input type="text" id="gi-game-id"
+                                placeholder="1245670 atau https://store.steampowered.com/app/..." autocomplete="off">
+                        </div>
+
+                        <div class="gi-game-info" id="gi-game-info" style="display: none;">
+                            <div class="gi-game-name" id="gi-game-name">Loading...</div>
+                            <div class="gi-dlc-count" id="gi-dlc-count">0 DLC detected</div>
+                        </div>
+
+                        <div class="gi-button-group">
+                            <button class="gi-btn gi-btn-add" id="gi-add-btn">
+                                <span>+</span> ADD GAME
+                            </button>
+                            <button class="gi-btn gi-btn-delete" id="gi-delete-btn">
+                                <span>🗑️</span> DELETE
+                            </button>
+                        </div>
+
+                        <div class="gi-status-message" id="gi-status-message"></div>
+                    </div>
+
+                    <!-- How to Use Card -->
+                    <div class="gi-card gi-how-to">
+                        <h2>Cara Pakai</h2>
+                        <div class="gi-step">
+                            <span class="gi-step-number">1</span>
+                            <span>Klik "Activate Inject" untuk mengaktifkan SteamTools</span>
+                        </div>
+                        <div class="gi-step">
+                            <span class="gi-step-number">2</span>
+                            <span>Masukkan Game ID atau paste URL Steam</span>
+                        </div>
+                        <div class="gi-step">
+                            <span class="gi-step-number">3</span>
+                            <span>Klik "Add Game" untuk inject game</span>
+                        </div>
+                        <div class="gi-step">
+                            <span class="gi-step-number">4</span>
+                            <span>Klik "Restart Steam" untuk apply perubahan</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
 
         <!-- Status Bar -->
@@ -310,6 +391,38 @@
             <button class="toast-close"
                 onclick="document.getElementById('internet-warning-modal').style.display='none'">✕</button>
         </div>
+    </div>
+
+    <!-- Game Injection Settings Modal -->
+    <div id="gi-settings-modal" class="gi-modal">
+        <div class="gi-modal-content">
+            <div class="gi-modal-header">
+                <h3>⚙️ Steam Path Settings</h3>
+                <button class="gi-modal-close" id="gi-close-settings">✕</button>
+            </div>
+            <div class="gi-modal-body">
+                <div class="gi-setting-group">
+                    <label>Steam Installation Path</label>
+                    <div class="gi-path-input-row">
+                        <input type="text" id="gi-custom-steam-path" placeholder="C:\Program Files (x86)\Steam">
+                        <button class="gi-btn-browse" id="gi-browse-path-btn">📁 Browse</button>
+                    </div>
+                    <small>Kosongkan untuk auto-detect</small>
+                </div>
+            </div>
+            <div class="gi-modal-footer">
+                <button class="gi-btn gi-btn-save" id="gi-save-settings">💾 Save Settings</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Game Injection Toast Container -->
+    <div class="gi-toast-container" id="gi-toast-container"></div>
+
+    <!-- Game Injection Loading Overlay -->
+    <div class="gi-loading-overlay" id="gi-loading-overlay" style="display: none;">
+        <div class="gi-loading-spinner"></div>
+        <div class="gi-loading-text">Processing...</div>
     </div>
 
     <script src="renderer.js"></script>

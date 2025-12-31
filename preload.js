@@ -70,5 +70,16 @@ contextBridge.exposeInMainWorld('electronAPI', {
     },
 
     // External links
-    openExternal: (url) => ipcRenderer.invoke('open-external', url)
+    openExternal: (url) => ipcRenderer.invoke('open-external', url),
+
+    // Game Injection APIs
+    getSteamPathInject: () => ipcRenderer.invoke('get-steam-path-inject'),
+    getSteamToolsPath: (steamPath) => ipcRenderer.invoke('get-steam-tools-path', steamPath),
+    fetchGameInfo: (appId) => ipcRenderer.invoke('fetch-game-info', appId),
+    injectGame: (gameData) => ipcRenderer.invoke('inject-game', gameData),
+    removeGame: (appId) => ipcRenderer.invoke('remove-game', appId),
+    getInjectedGames: () => ipcRenderer.invoke('get-injected-games'),
+    activateInject: () => ipcRenderer.invoke('activate-inject'),
+    restartSteamInject: () => ipcRenderer.invoke('restart-steam-inject'),
+    browseSteamFolder: () => ipcRenderer.invoke('browse-steam-folder')
 });

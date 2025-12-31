@@ -1,0 +1,52 @@
+[2025-12-29 17:58:49]
+
+==============================
+[2025-12-29 18:00:41]
+import pyperclip
+import time
+import datetime
+
+def monitor_clipboard():
+    print("[*] Monitoring Clipboard berjalan...")
+    print("[*] Coba Copy TEKS, lalu coba Copy FILE/GAMBAR untuk lihat bedanya.")
+    print("-" * 50)
+
+    last_text = pyperclip.paste()
+    
+    try:
+        while True:
+            current_text = pyperclip.paste()
+
+            # Cek jika ada perubahan
+            if current_text != last_text:
+                timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                print(f"[BARU] {timestamp}")
+                
+                # --- LOGIKA BARU ---
+                if current_text.strip() == "":
+                    # Jika kosong, berarti user meng-copy sesuatu yang bukan teks
+                    print("Isi: [Bukan Teks - Gambar atau File]")
+                    log_content = "[Non-Text Content]"
+                else:
+                    print(f"Isi: {current_text}")
+                    log_content = current_text
+                # -------------------
+
+                print("-" * 50)
+                
+                with open("clipboard_history.txt", "a", encoding="utf-8") as f:
+                    f.write(f"[{timestamp}]\n{log_content}\n{'='*30}\n")
+                
+                last_text = current_text
+            
+            time.sleep(1)
+
+    except KeyboardInterrupt:
+        print("\n[*] Monitoring berhenti.")
+
+if __name__ == "__main__":
+    monitor_clipboard()
+==============================
+[2025-12-29 18:01:37]
+[Non-Text Content]
+==============================

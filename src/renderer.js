@@ -11,7 +11,7 @@ const FIREBASE_URL = 'https://steamguardvaltools-default-rtdb.asia-southeast1.fi
 // State
 let accounts = {};
 let adminHash = '';
-let isAdminLoggedIn = false;
+let isAdminLoggedIn = true;
 let selectedAccount = null;
 let settings = { steam_path: 'C:\\Program Files (x86)\\Steam\\steam.exe' };
 
@@ -105,6 +105,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     initModal();
     initDashboard();
     initSteamGuard();
+    initGameInjection();
 
     // Fix: Always force focus on every click to prevent keyboard input loss
     // BUT NOT during injection (which needs Steam to stay focused)
@@ -1320,3 +1321,302 @@ async function sgGenerateVoucher() {
         sgConsoleLog('❌ Failed to create voucher: ' + e.message, 'error');
     }
 }
+
+// ============================================
+// Game Injection Module
+// ============================================
+let giSteamPath = null;
+let giCurrentGameInfo = null;
+let giInjectedGames = [];
+
+function initGameInjection() {
+    // Game ID input with debounce
+    let debounceTimer;
+    document.getElementById('gi-game-id')?.addEventListener('input', (e) => {
+        clearTimeout(debounceTimer);
+        let value = e.target.value.trim();
+
+        // Auto-extract App ID from Steam URL
+        const extractedId = giExtractAppId(value);
+        if (extractedId && extractedId !== value) {
+            e.target.value = extractedId;
+            value = extractedId;
+        }
+
+        if (value.length >= 3) {
+            debounceTimer = setTimeout(() => giFetchGameInfo(value), 500);
+        } else {
+            giHideGameInfo();
+        }
+    });
+
+    // Enter key on game ID input
+    document.getElementById('gi-game-id')?.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter' && giCurrentGameInfo) {
+            giAddGame();
+        }
+    });
+
+    // Buttons
+    document.getElementById('gi-add-btn')?.addEventListener('click', giAddGame);
+    document.getElementById('gi-delete-btn')?.addEventListener('click', giDeleteGame);
+    document.getElementById('gi-activate-inject-btn')?.addEventListener('click', giActivateInject);
+    document.getElementById('gi-restart-steam-btn')?.addEventListener('click', giRestartSteam);
+
+    // Settings modal
+    document.getElementById('gi-settings-btn')?.addEventListener('click', giOpenSettings);
+    document.getElementById('gi-close-settings')?.addEventListener('click', giCloseSettings);
+    document.getElementById('gi-browse-path-btn')?.addEventListener('click', giBrowseSteamPath);
+    document.getElementById('gi-save-settings')?.addEventListener('click', giSaveSettings);
+
+    // Close modal when clicking outside
+    document.getElementById('gi-settings-modal')?.addEventListener('click', (e) => {
+        if (e.target.id === 'gi-settings-modal') {
+            giCloseSettings();
+        }
+    });
+
+    // Initialize Steam path
+    giInitSteam();
+}
+
+function giExtractAppId(input) {
+    // Extract from Steam URL: https://store.steampowered.com/app/1245670/...
+    const steamUrlPattern = /store\.steampowered\.com\/app\/(\d+)/i;
+    const match = input.match(steamUrlPattern);
+    if (match && match[1]) {
+        return match[1];
+    }
+
+    // Already a number
+    if (/^\d+$/.test(input)) {
+        return input;
+    }
+
+    // Extract any number
+    const numberMatch = input.match(/\d+/);
+    if (numberMatch) {
+        return numberMatch[0];
+    }
+
+    return input;
+}
+
+async function giInitSteam() {
+    try {
+        if (window.electronAPI) {
+            giSteamPath = await window.electronAPI.getSteamPathInject();
+            console.log('Game Injection Steam path:', giSteamPath);
+        }
+    } catch (error) {
+        console.error('Error initializing Steam for Game Injection:', error);
+    }
+}
+
+async function giFetchGameInfo(appId) {
+    try {
+        giShowLoading();
+        const result = await window.electronAPI.fetchGameInfo(appId);
+
+        if (result.success) {
+            giCurrentGameInfo = result.data;
+            giShowGameInfo(result.data);
+        } else {
+            giHideGameInfo();
+            giShowStatus('error', result.error || 'Game tidak ditemukan');
+        }
+    } catch (error) {
+        giHideGameInfo();
+        giShowStatus('error', 'Gagal mengambil info game');
+    } finally {
+        giHideLoading();
+    }
+}
+
+function giShowGameInfo(data) {
+    document.getElementById('gi-game-name').textContent = data.name;
+    document.getElementById('gi-dlc-count').textContent = `${data.dlcs?.length || 0} DLC detected`;
+    document.getElementById('gi-game-info').style.display = 'block';
+    giClearStatus();
+}
+
+function giHideGameInfo() {
+    document.getElementById('gi-game-info').style.display = 'none';
+    giCurrentGameInfo = null;
+}
+
+async function giAddGame() {
+    const gameId = document.getElementById('gi-game-id').value.trim();
+
+    if (!gameId) {
+        giShowStatus('error', 'Masukkan Game ID terlebih dahulu');
+        return;
+    }
+
+    if (!giSteamPath) {
+        giShowStatus('error', 'Steam path belum diset. Buka Settings.');
+        return;
+    }
+
+    try {
+        giShowLoading();
+
+        if (!giCurrentGameInfo) {
+            const result = await window.electronAPI.fetchGameInfo(gameId);
+            if (!result.success) {
+                giShowStatus('error', result.error || 'Game tidak ditemukan');
+                giHideLoading();
+                return;
+            }
+            giCurrentGameInfo = result.data;
+        }
+
+        const injectResult = await window.electronAPI.injectGame({
+            appId: gameId,
+            name: giCurrentGameInfo.name,
+            dlcs: giCurrentGameInfo.dlcs || [],
+            depots: giCurrentGameInfo.depots || {}
+        });
+
+        if (injectResult.success) {
+            giShowStatus('success', `✅ ${giCurrentGameInfo.name} berhasil ditambahkan!`);
+            giShowToast('success', `Game ditambahkan: ${giCurrentGameInfo.name}`);
+
+            document.getElementById('gi-game-id').value = '';
+            giHideGameInfo();
+        } else {
+            giShowStatus('error', injectResult.error || 'Gagal menambahkan game');
+        }
+    } catch (error) {
+        giShowStatus('error', 'Terjadi kesalahan: ' + error.message);
+    } finally {
+        giHideLoading();
+    }
+}
+
+async function giDeleteGame() {
+    const gameId = document.getElementById('gi-game-id').value.trim();
+
+    if (!gameId) {
+        giShowStatus('error', 'Masukkan Game ID yang akan dihapus');
+        return;
+    }
+
+    try {
+        giShowLoading();
+        const result = await window.electronAPI.removeGame(gameId);
+
+        if (result.success) {
+            giShowStatus('success', `🗑️ Game ${gameId} berhasil dihapus!`);
+            giShowToast('success', 'Game berhasil dihapus');
+
+            document.getElementById('gi-game-id').value = '';
+            giHideGameInfo();
+        } else {
+            giShowStatus('error', result.error || 'Gagal menghapus game');
+        }
+    } catch (error) {
+        giShowStatus('error', 'Terjadi kesalahan: ' + error.message);
+    } finally {
+        giHideLoading();
+    }
+}
+
+async function giActivateInject() {
+    giShowLoading();
+    try {
+        const result = await window.electronAPI.activateInject();
+
+        if (result.success) {
+            giShowToast('success', 'Inject berhasil diaktifkan! Restart Steam.');
+        } else {
+            giShowToast('error', result.error || 'Gagal mengaktifkan inject');
+        }
+    } catch (error) {
+        giShowToast('error', 'Error: ' + error.message);
+    } finally {
+        giHideLoading();
+    }
+}
+
+async function giRestartSteam() {
+    giShowLoading();
+    try {
+        const result = await window.electronAPI.restartSteamInject();
+
+        if (result.success) {
+            giShowToast('success', 'Steam sedang direstart...');
+        } else {
+            giShowToast('error', result.error || 'Gagal restart Steam');
+        }
+    } catch (error) {
+        giShowToast('error', 'Error: ' + error.message);
+    } finally {
+        giHideLoading();
+    }
+}
+
+async function giOpenSettings() {
+    const settings = await window.electronAPI.getSettings();
+    document.getElementById('gi-custom-steam-path').value = settings.customSteamPath || giSteamPath || '';
+    document.getElementById('gi-settings-modal').classList.add('active');
+}
+
+function giCloseSettings() {
+    document.getElementById('gi-settings-modal').classList.remove('active');
+}
+
+async function giBrowseSteamPath() {
+    const result = await window.electronAPI.browseSteamFolder();
+    if (result) {
+        document.getElementById('gi-custom-steam-path').value = result;
+    }
+}
+
+async function giSaveSettings() {
+    const customPath = document.getElementById('gi-custom-steam-path').value.trim();
+    const settings = await window.electronAPI.getSettings();
+    settings.customSteamPath = customPath;
+    await window.electronAPI.saveSettings(settings);
+
+    giSteamPath = customPath || await window.electronAPI.getSteamPathInject();
+    giCloseSettings();
+    giShowToast('success', 'Settings disimpan!');
+}
+
+function giShowStatus(type, message) {
+    const el = document.getElementById('gi-status-message');
+    el.className = `gi-status-message ${type}`;
+    el.textContent = message;
+}
+
+function giClearStatus() {
+    const el = document.getElementById('gi-status-message');
+    el.className = 'gi-status-message';
+    el.textContent = '';
+}
+
+function giShowLoading() {
+    document.getElementById('gi-loading-overlay').style.display = 'flex';
+}
+
+function giHideLoading() {
+    document.getElementById('gi-loading-overlay').style.display = 'none';
+}
+
+function giShowToast(type, message) {
+    const container = document.getElementById('gi-toast-container');
+    const toast = document.createElement('div');
+    toast.className = `gi-toast ${type}`;
+    toast.innerHTML = `
+        <span>${type === 'success' ? '✅' : '❌'}</span>
+        <span>${message}</span>
+    `;
+
+    container.appendChild(toast);
+
+    setTimeout(() => {
+        toast.remove();
+    }, 3000);
+}
+

@@ -1,0 +1,541 @@
+Mon Dec 29 16:34:37 2025 - [BARU] File terdeteksi: I:\percobaansteam\config\config.vdf.async24452.tmp
+Mon Dec 29 16:34:37 2025 - [BARU] File terdeteksi: I:\percobaansteam\config\config.vdf~RF11d399.TMP
+Mon Dec 29 16:34:49 2025 - [BARU] File terdeteksi: I:\percobaansteam\hid.dll
+Mon Dec 29 16:34:49 2025 - [BARU] File terdeteksi: I:\percobaansteam\version.dll
+Mon Dec 29 16:35:37 2025 - [BARU] File terdeteksi: I:\percobaansteam\hid.dll
+Mon Dec 29 16:35:37 2025 - [BARU] File terdeteksi: I:\percobaansteam\version.dll
+Mon Dec 29 16:35:49 2025 - [BARU] File terdeteksi: I:\percobaansteam\config\config.vdf.async24452.tmp
+Mon Dec 29 16:35:49 2025 - [BARU] File terdeteksi: I:\percobaansteam\config\config.vdf~RF12eb33.TMP
+Mon Dec 29 16:36:23 2025 - [BARU] File terdeteksi: I:\percobaansteam\logs\cloud_log.txt
+Mon Dec 29 16:36:23 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:23 2025 - [BARU] File terdeteksi: I:\percobaansteam\logs\content_log.txt
+Mon Dec 29 16:36:23 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:23 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:23 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:24 2025 - [BARU] File terdeteksi: I:\percobaansteam\steamapps\libraryfolders.vdf.async24452.tmp
+Mon Dec 29 16:36:24 2025 - [BARU] File terdeteksi: I:\percobaansteam\steamapps\libraryfolders.vdf.async24452.tmp
+Mon Dec 29 16:36:24 2025 - [BARU] File terdeteksi: I:\percobaansteam\config\libraryfolders.vdf.async24452.tmp
+Mon Dec 29 16:36:24 2025 - [BARU] File terdeteksi: I:\percobaansteam\logs\workshop_log.txt
+Mon Dec 29 16:36:24 2025 - [BARU] File terdeteksi: I:\percobaansteam\logs\remote_connections.txt
+Mon Dec 29 16:36:24 2025 - [BARU] File terdeteksi: I:\percobaansteam\logs\parental_log.txt
+Mon Dec 29 16:36:24 2025 - [BARU] File terdeteksi: I:\percobaansteam\logs\gameprocess_log.txt
+Mon Dec 29 16:36:24 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\licensecache.async24452.tmp
+Mon Dec 29 16:36:24 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\localconfig.vdf.async24452.tmp
+Mon Dec 29 16:36:24 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:24 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:24 2025 - [BARU] File terdeteksi: I:\percobaansteam\update_hosts_cached.vdf
+Mon Dec 29 16:36:24 2025 - [BARU] File terdeteksi: I:\percobaansteam\config\config.vdf.async24452.tmp
+Mon Dec 29 16:36:24 2025 - [BARU] File terdeteksi: I:\percobaansteam\config\config.vdf~RF1376ba.TMP
+Mon Dec 29 16:36:24 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:25 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\localconfig.vdf.async24452.tmp
+Mon Dec 29 16:36:25 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\localconfig.vdf~RF137831.TMP
+Mon Dec 29 16:36:25 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:25 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:25 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\packageinfo.vdf.async24452.tmp
+Mon Dec 29 16:36:26 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\7\remote\sharedconfig.vdf.stmp
+Mon Dec 29 16:36:26 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\7\remote\sharedconfig.vdf.stmp
+Mon Dec 29 16:36:26 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\localconfig.vdf.async24452.tmp
+Mon Dec 29 16:36:26 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:26 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\localconfig.vdf~RF137c96.TMP
+Mon Dec 29 16:36:26 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:26 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\7\remotecache.vdf
+Mon Dec 29 16:36:28 2025 - [BARU] File terdeteksi: I:\percobaansteam\config\steamapps.vrmanifest
+Mon Dec 29 16:36:28 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:28 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:28 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\localconfig.vdf.async24452.tmp
+Mon Dec 29 16:36:28 2025 - [BARU] File terdeteksi: I:\percobaansteam\config\loginusers.vdf
+Mon Dec 29 16:36:28 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\localconfig.vdf~RF13838b.TMP
+Mon Dec 29 16:36:28 2025 - [BARU] File terdeteksi: I:\percobaansteam\logs\streaming_log.txt
+Mon Dec 29 16:36:28 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:28 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:28 2025 - [BARU] File terdeteksi: I:\percobaansteam\logs\steamui_librarycache.txt
+Mon Dec 29 16:36:28 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:28 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:28 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\cloudstorage\cloud-storage-namespaces.json
+Mon Dec 29 16:36:28 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\cloudstorage\cloud-storage-namespaces.json
+Mon Dec 29 16:36:28 2025 - [BARU] File terdeteksi: I:\percobaansteam\logs\text_filter_log.txt
+Mon Dec 29 16:36:28 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\211\50dd8fa4ea86581b1986e8b1d0560d58f41912ac.jpg
+Mon Dec 29 16:36:28 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\211\50dd8fa4ea86581b1986e8b1d0560d58f41912ac.jpg
+Mon Dec 29 16:36:28 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\211\50dd8fa4ea86581b1986e8b1d0560d58f41912ac.jpg
+Mon Dec 29 16:36:28 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\localconfig.vdf.async24452.tmp
+Mon Dec 29 16:36:28 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\localconfig.vdf~RF138689.TMP
+Mon Dec 29 16:36:28 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1840\library_600x900.jpg
+Mon Dec 29 16:36:28 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1840\library_600x900.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\41005\687d78511b7e52f54745b49554c20d8fc4a46f40.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\41005\687d78511b7e52f54745b49554c20d8fc4a46f40.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\config\config.vdf.async24452.tmp
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\resource\filter_profanity_english_cached_timestamp.txt
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\resource\filter_profanity_english_cached.txt
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\config\config.vdf~RF138715.TMP
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\219\library_600x900.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\42300\81893cf656447e243af1905f7b1a5bfc86177bc0.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\219\library_hero.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\42300\81893cf656447e243af1905f7b1a5bfc86177bc0.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\219\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\219\795e85364189511f4990861b578084deef086cb1.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\410\cfa928ab4119dd137e50d728e8fe703e4e970aff.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\410\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\410\library_600x900.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\410\cfa928ab4119dd137e50d728e8fe703e4e970aff.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\410\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\410\library_600x900.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\cloudstorage\cloud-storage-namespace-3.modified.json
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\440\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\440\library_600x900.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\440\library_600x900.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\440\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\440\library_hero.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\440\logo.png
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\42750\c3330a875925437d8216949b6571f6e941ba0679.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\63220\21beae8cb4410a5ac7c668c085452e4de21f9c33.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\42750\c3330a875925437d8216949b6571f6e941ba0679.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\63220\21beae8cb4410a5ac7c668c085452e4de21f9c33.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\70010\958cda55e4c95d79c651b567f3083204d9842911.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\70010\958cda55e4c95d79c651b567f3083204d9842911.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\72310\61a7aff7fe8f2040712ed1d033eb8d0c3a687dba.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\72310\61a7aff7fe8f2040712ed1d033eb8d0c3a687dba.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\440\library_hero_blur.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\440\f568912870a4684f9ec76277a1a404dda6bab213.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\cloudstorage\cloud-storage-namespace-3.json
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\570\1f962b4d5e2a3bc254262e1894cdd1d4a1217568\library_capsule.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\570\e715b05d836c61a063b7a343dc9cf911c3f1d375\library_hero_blur.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\635\2263391453e3f77856db1078f0f168fb99dd2c51.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\570\1f962b4d5e2a3bc254262e1894cdd1d4a1217568\library_capsule.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\570\e715b05d836c61a063b7a343dc9cf911c3f1d375\library_hero_blur.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\635\2263391453e3f77856db1078f0f168fb99dd2c51.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\570\1f962b4d5e2a3bc254262e1894cdd1d4a1217568\library_capsule.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\570\e715b05d836c61a063b7a343dc9cf911c3f1d375\library_hero_blur.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\570\0bbb630d63262dd66d2fdd0f7d37e8661a410075.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\resource\filter_banned_english_cached_timestamp.txt
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\resource\filter_banned_english_cached.txt
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\570\28ec1a3a0c1c1df2be5d51bf9f9b23dc54d7f917\library_header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\570\e715b05d836c61a063b7a343dc9cf911c3f1d375\library_hero.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\570\28ec1a3a0c1c1df2be5d51bf9f9b23dc54d7f917\library_header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\570\logo.png
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\570\c9e9902151b7e9049145921c09a1aa4e6744530b\markers.svg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\570\c9e9902151b7e9049145921c09a1aa4e6744530b\markers.svg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\640\2263391453e3f77856db1078f0f168fb99dd2c51.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\640\2263391453e3f77856db1078f0f168fb99dd2c51.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\730\library_600x900.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\730\logo.png
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\730\library_600x900.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\730\logo.png
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\httpcache\1c\1c36a3aa677b96e6b204c32719f4ee3a7915b5a7_da39a3ee5e6b4b0d3255bfef95601890afd80709
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\httpcache\8d\8d45116583372a4bc6fe3d419cd10862ff355928_da39a3ee5e6b4b0d3255bfef95601890afd80709
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\httpcache\f9\f9ceddef4735f004a38ddd0cc97a4da768471e4b_da39a3ee5e6b4b0d3255bfef95601890afd80709
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\730\library_hero.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\730\8dbc71957312bbd3baea65848b545be9eae2a355.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\72780\a8287f6a2627c344116d8f81fc518e71aab2a647.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\72780\a8287f6a2627c344116d8f81fc518e71aab2a647.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\730\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\730\library_hero_blur.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\localconfig.vdf.async24452.tmp
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\localconfig.vdf~RF1388bb.TMP
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\config\avatarcache\76561199266538254.png
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\730\0eeacc724c77e1f5abeeba4fb542f45bad894470\markers.svg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\config\avatarcache\76561199266538254.png
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\228980\c9036837d770245e72fc968c04a77966594930b5.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\228980\library_hero.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\223350\16a985dfee9b093d76a0ffc4cf4c77ba20c2eb0d.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\223350\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\730\0eeacc724c77e1f5abeeba4fb542f45bad894470\markers.svg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\228980\library_hero.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\223350\16a985dfee9b093d76a0ffc4cf4c77ba20c2eb0d.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\228980\c9036837d770245e72fc968c04a77966594930b5.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\223350\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\228980\library_hero_blur.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\228980\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\228980\logo.png
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\223350\library_600x900.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1007\7807d6dcd71d8161465619b4f041794b0353a6d0.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1007\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\229950\c0f48f47d6d4befda9d33568f218cf726572eaa9.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\229950\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1007\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1007\7807d6dcd71d8161465619b4f041794b0353a6d0.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\229950\c0f48f47d6d4befda9d33568f218cf726572eaa9.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\229950\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\230030\9c6868e261ffb2781660a5988bd0c0f00a5f6e0c.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\231390\c0f48f47d6d4befda9d33568f218cf726572eaa9.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\231390\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\230030\9c6868e261ffb2781660a5988bd0c0f00a5f6e0c.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\231390\c0f48f47d6d4befda9d33568f218cf726572eaa9.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\231390\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1840\library_hero_blur.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\233780\03fac7ea514d12d5abf1526ddec2b363d5f72629.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\233780\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1840\a2ac9b9bfd3f560f48d184c90f4e6baaaa4bd92a.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\233780\03fac7ea514d12d5abf1526ddec2b363d5f72629.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1840\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\233780\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\243750\bb5e97d5a755e785cfbd33641adc409c4b7aa1a5.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1840\logo.png
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\243730\bb5e97d5a755e785cfbd33641adc409c4b7aa1a5.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\243750\bb5e97d5a755e785cfbd33641adc409c4b7aa1a5.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\243730\bb5e97d5a755e785cfbd33641adc409c4b7aa1a5.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\httpcache\3d\3ded12146c5c08cddb39541aaac976f6b5f32c72_da39a3ee5e6b4b0d3255bfef95601890afd80709
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\229950\library_hero.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\httpcache\7d\7d38d6c884a46d21ea29f03e7be0a4b519f9002d_da39a3ee5e6b4b0d3255bfef95601890afd80709
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\229950\library_600x900.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\231390\library_600x900.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\231390\library_hero.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\34120\86731c8496b333fdafac5a08548fbf5cb687ce56.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\18030\ae87fa2b13f2ea900a05bee5fc4db6d4c9dfacdd.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\18030\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\34120\86731c8496b333fdafac5a08548fbf5cb687ce56.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\17525\03b4a84bae9cbe03bd4384320adef70bbb97abe8.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\18030\ae87fa2b13f2ea900a05bee5fc4db6d4c9dfacdd.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\17505\541d222305440c75cd5599d3032ab9590c206a75.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\17525\03b4a84bae9cbe03bd4384320adef70bbb97abe8.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\4270\a84d62ad8095e8b991cbb83044a02fd4980ead3a.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\17505\541d222305440c75cd5599d3032ab9590c206a75.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\4270\a84d62ad8095e8b991cbb83044a02fd4980ead3a.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\17515\c13110cfe96f0157c2ebd2e5b57a1aee6895dc95.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\13180\d2be5ddb7b8154fd756843cea4335e9ec9754552.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\17515\c13110cfe96f0157c2ebd2e5b57a1aee6895dc95.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\13180\d2be5ddb7b8154fd756843cea4335e9ec9754552.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\22150\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\18010\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\18030\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\22150\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\18010\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\250820\7f286d5ee22905b51663e0cea505e1c2f7500f36.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\250820\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\250820\library_600x900.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\250820\library_hero_blur.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\250820\logo.png
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\255470\b4f572a6cc5a6a84ae84634c31414b9123d2f26b.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\255470\b4f572a6cc5a6a84ae84634c31414b9123d2f26b.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\250820\7f286d5ee22905b51663e0cea505e1c2f7500f36.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\250820\library_hero_blur.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\250820\logo.png
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\261140\6cdb990bb1973c0ada2cd644d71ba0533b5d4e7e.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\294420\d43a8a02c05cda3848acac7bae6d3f9282a572e2.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\294420\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\294420\library_600x900.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\294420\library_hero_blur.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\302530\b36a67dd5b78e303146fef3564a25b6b780cb0b2.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\261140\6cdb990bb1973c0ada2cd644d71ba0533b5d4e7e.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\294420\d43a8a02c05cda3848acac7bae6d3f9282a572e2.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\302530\b36a67dd5b78e303146fef3564a25b6b780cb0b2.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\294420\library_hero_blur.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\250820\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\250820\library_600x900.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\294420\library_600x900.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\294420\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\302550\c8ebc004d884397e8cfb941fa902ebc526345b59.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\332850\875374888aa7ba35c9ba24f4cb9aa5e364154e6a.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\233780\library_600x900.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\332850\875374888aa7ba35c9ba24f4cb9aa5e364154e6a.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\250820\library_hero.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1840\library_hero.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\18010\library_600x900.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\294420\logo.png
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\22150\library_600x900.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\374980\1ee5ebf07af8d548454e27165bdbc8883056bb68.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\18030\library_600x900.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\294420\library_hero.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\374980\1ee5ebf07af8d548454e27165bdbc8883056bb68.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\381690\89535542b619b9f8dfc7d9d9df9bda2556a8f5fa.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\381690\89535542b619b9f8dfc7d9d9df9bda2556a8f5fa.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\568880\3a1dbbf59326c0bb78113db7ac0d70b9988b3ce8.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\382030\5bed90107daf49f3342f16d418be9127c88862f3.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\568880\3a1dbbf59326c0bb78113db7ac0d70b9988b3ce8.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\382030\5bed90107daf49f3342f16d418be9127c88862f3.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\613220\d13a9f3763d3645ba534a3999bb8cee688836f4e.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\613220\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\613220\library_600x900.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\613220\library_hero.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\613220\d13a9f3763d3645ba534a3999bb8cee688836f4e.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\714010\15347de11efc127539c388e585af9e92d10d5189.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\714010\logo.png
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\714010\593e219fd5c12e8ce7d7e5850435a50b7b9d821b\library_hero.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\714010\593e219fd5c12e8ce7d7e5850435a50b7b9d821b\library_hero_blur.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\714010\a7b14b5f8f4e8d858f1ca4d474e668cdf48035f5\library_header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\714010\d3a27fcb975da6e48c64cb249934485555cf1bb9\library_600x900.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\714010\a7b14b5f8f4e8d858f1ca4d474e668cdf48035f5\library_header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\714010\593e219fd5c12e8ce7d7e5850435a50b7b9d821b\library_hero.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\714010\593e219fd5c12e8ce7d7e5850435a50b7b9d821b\library_hero_blur.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\714010\15347de11efc127539c388e585af9e92d10d5189.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\714010\logo.png
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\714010\a7b14b5f8f4e8d858f1ca4d474e668cdf48035f5\library_header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\714010\593e219fd5c12e8ce7d7e5850435a50b7b9d821b\library_hero_blur.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\613220\header.jpg
+Mon Dec 29 16:36:29 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\714010\593e219fd5c12e8ce7d7e5850435a50b7b9d821b\library_hero.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\613220\library_600x900.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\714010\d3a27fcb975da6e48c64cb249934485555cf1bb9\library_600x900.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\613220\library_hero.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\714010\d3a27fcb975da6e48c64cb249934485555cf1bb9\library_600x900.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\747660\40abe4b1ce9c60e85aa569af8313bcbecd18e47c.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\747660\logo.png
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\747660\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\747660\library_hero_blur.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\747660\library_600x900.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\823130\920902c516d435c3d9a6c5ef92e3cd4372f9314b.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\823130\library_600x900.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\823130\library_hero_blur.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\823130\920902c516d435c3d9a6c5ef92e3cd4372f9314b.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\961940\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\823130\library_hero_blur.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\823130\library_600x900.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\961940\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\858280\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\858280\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\858280\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\858280\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\localconfig.vdf.async24452.tmp
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\localconfig.vdf~RF138b2c.TMP
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\cloudstorage\cloud-storage-namespace-1.modified.json
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\944490\b715532aeeffa793b7862cc4036ddce9c5b4c5ef.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\961940\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\944490\b715532aeeffa793b7862cc4036ddce9c5b4c5ef.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\823130\library_header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\823130\logo.png
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1042420\dadc80fcc935495943969e0d3cd90cae6c79d8ff.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\747660\library_hero.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1042420\dadc80fcc935495943969e0d3cd90cae6c79d8ff.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1054830\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1054830\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\823130\library_hero.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1054830\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1070560\28e69f0757c1da202c47f40bdab7974820c7b1a5.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1070560\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1054830\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1070560\28e69f0757c1da202c47f40bdab7974820c7b1a5.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1070560\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1070910\b98cb4cdc0cf66b1576d783b6d1f7c3569eab002.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1070910\b98cb4cdc0cf66b1576d783b6d1f7c3569eab002.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\cloudstorage\cloud-storage-namespace-1.json
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1113280\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1113280\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1113280\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1070910\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1161040\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1161040\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1161040\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1161040\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1222670\ca6bc8b2411bce4a2cd325ab75f0204bc3a4ad98.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1222670\library_hero_blur.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1222670\logo.png
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1222670\ca6bc8b2411bce4a2cd325ab75f0204bc3a4ad98.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1113280\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1222670\library_hero_blur.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1070910\library_hero.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1070910\library_600x900.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1222670\logo.png
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1222670\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1222670\library_600x900.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1240440\ec684b943169d675439f6cdf64fa2f2aa90d9821.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1240440\logo.png
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1240440\b73bbfdbee0ffb8d630ddf4b78efd10292b8ba9e\library_hero_blur.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1240440\e782c52336ccbcb350d37ce343b1605e71315a85\library_header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1420170\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1420170\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1240440\e782c52336ccbcb350d37ce343b1605e71315a85\library_header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1420170\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1222670\library_hero.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1240440\e782c52336ccbcb350d37ce343b1605e71315a85\library_header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1420170\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1240440\b73bbfdbee0ffb8d630ddf4b78efd10292b8ba9e\library_hero_blur.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1240440\ec684b943169d675439f6cdf64fa2f2aa90d9821.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1245040\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1245040\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1240440\b73bbfdbee0ffb8d630ddf4b78efd10292b8ba9e\library_hero_blur.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1245040\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1240440\logo.png
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1391110\28e69f0757c1da202c47f40bdab7974820c7b1a5.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1391110\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1391110\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1245040\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1240440\5c09b42d3b89901b78c322bb366bb34a1123f468\library_capsule.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1240440\5c09b42d3b89901b78c322bb366bb34a1123f468\library_capsule.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1391110\28e69f0757c1da202c47f40bdab7974820c7b1a5.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1580130\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1580130\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1580130\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1580130\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1493710\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1493710\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1628350\28e69f0757c1da202c47f40bdab7974820c7b1a5.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1628350\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1628350\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1493710\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1628350\28e69f0757c1da202c47f40bdab7974820c7b1a5.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1240440\b73bbfdbee0ffb8d630ddf4b78efd10292b8ba9e\library_hero.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1677740\4517b0a1eff3befd699ede64a57e3f816d581be7.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1677740\library_600x900.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1677740\library_header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1677740\library_hero_blur.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1677740\logo.png
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1721470\2035ade9393613f669a77e23d09b1fa22ac77481.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1721470\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1721470\library_600x900.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1721470\library_hero_blur.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1721470\logo.png
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1721470\library_hero_blur.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1677740\4517b0a1eff3befd699ede64a57e3f816d581be7.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1677740\library_hero_blur.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1677740\logo.png
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1721470\2035ade9393613f669a77e23d09b1fa22ac77481.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1826330\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1826330\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1677740\library_600x900.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1874900\611ef8ba927cc6cbcdeb6ff954cb059539a28ab2.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1874900\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1874900\library_600x900.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1874900\library_hero_blur.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1874900\logo.png
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1826330\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1826330\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1874900\611ef8ba927cc6cbcdeb6ff954cb059539a28ab2.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1874900\library_hero_blur.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1887720\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1887720\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2180100\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2180100\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1887720\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1887720\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2180100\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2180100\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2230260\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2230260\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2230260\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2311970\a6cfafd70b9439ad2ea921ab1de320a5b3804578.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1874900\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2230260\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2311970\a6cfafd70b9439ad2ea921ab1de320a5b3804578.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1721470\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1874900\library_600x900.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2348590\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2348590\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2348590\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1677740\library_header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2348590\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2676230\6daae170d0dffad2ffad059b5cfe3ee62441b2e4.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2676230\2cf680b220e624bc4d492bf021c79ca62dd04618\library_capsule.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2676230\9e8a2df18bfdd24267aefa6d3e14778c2ecb1708\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2738040\2ba9bc7cdaea177c954cc92cd42dd8740f87b50f.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2676230\6daae170d0dffad2ffad059b5cfe3ee62441b2e4.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2738040\2ba9bc7cdaea177c954cc92cd42dd8740f87b50f.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1721470\library_600x900.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1874900\logo.png
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2805730\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2805730\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2676230\9e8a2df18bfdd24267aefa6d3e14778c2ecb1708\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2805730\bd2b709a08caf7286f73c51d3b3937667f7aa053.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2805730\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2676230\9e8a2df18bfdd24267aefa6d3e14778c2ecb1708\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2676230\2cf680b220e624bc4d492bf021c79ca62dd04618\library_capsule.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2676230\2cf680b220e624bc4d492bf021c79ca62dd04618\library_capsule.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1721470\logo.png
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1708090\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1708090\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1817490\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1817490\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1924720\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1924720\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2555190\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\2555190\header.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1874900\library_hero.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1721470\library_hero.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\appcache\librarycache\1677740\library_hero.jpg
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\localconfig.vdf.async24452.tmp
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\localconfig.vdf~RF138d6e.TMP
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:30 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:32 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\localconfig.vdf.async24452.tmp
+Mon Dec 29 16:36:32 2025 - [BARU] File terdeteksi: I:\percobaansteam\userdata\1306272526\config\localconfig.vdf~RF13956d.TMP
+Mon Dec 29 16:36:32 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:36:32 2025 - [BARU] File terdeteksi: I:\percobaansteam\.writable
+Mon Dec 29 16:48:25 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\temp.zip
+Mon Dec 29 16:48:26 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\xinput1_4.dll
+Mon Dec 29 16:48:26 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\hid.dll
+Mon Dec 29 16:49:02 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\.writable
+Mon Dec 29 16:49:02 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\.crash
+Mon Dec 29 16:49:03 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\.temp_write_31f21e5b
+Mon Dec 29 16:49:06 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\logs\connection_log.txt
+Mon Dec 29 16:49:06 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_gl_64\nvidiav1\GLCache\76830935c12161cbda6c9640c05302f7\78f0e6ba7720c694\steamapp_shader_cache0.toc
+Mon Dec 29 16:49:06 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_gl_64\nvidiav1\GLCache\76830935c12161cbda6c9640c05302f7\78f0e6ba7720c694\steamapp_shader_cache0.bin
+Mon Dec 29 16:49:06 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_gl_64\nvidiav1\GLCache\76830935c12161cbda6c9640c05302f7\78f0e6ba7720c694\steamapp_shader_cache0.toc
+Mon Dec 29 16:49:06 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_gl_64\nvidiav1\GLCache\76830935c12161cbda6c9640c05302f7\78f0e6ba7720c694\steamapp_shader_cache0.bin
+Mon Dec 29 16:49:06 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_gl_64\nvidiav1\GLCache\76830935c12161cbda6c9640c05302f7\78f0e6ba7720c694\steamapp_shader_cache0.toc
+Mon Dec 29 16:49:06 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_gl_64\nvidiav1\GLCache\76830935c12161cbda6c9640c05302f7\78f0e6ba7720c694\steamapp_shader_cache0.toc
+Mon Dec 29 16:49:06 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_gl_64\nvidiav1\GLCache\76830935c12161cbda6c9640c05302f7\78f0e6ba7720c694\steamapp_shader_cache0.bin
+Mon Dec 29 16:49:06 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_gl_64\nvidiav1\GLCache\76830935c12161cbda6c9640c05302f7\78f0e6ba7720c694\steamapp_merged_tmp_shader_cache.bin
+Mon Dec 29 16:49:06 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_gl_64\nvidiav1\GLCache\76830935c12161cbda6c9640c05302f7\78f0e6ba7720c694\steamapp_merged_tmp_shader_cache.toc
+Mon Dec 29 16:49:07 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_vk_64\AMDv1\steamapp_shader_cache.parc
+Mon Dec 29 16:49:07 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_vk_64\AMDv1\steamapp_shader_cache.parc
+Mon Dec 29 16:49:07 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_vk_64\nvidiav1\GLCache\76830935c12161cbda6c9640c05302f7\78f0e6ba7720c694\steamapp_shader_cache0.bin
+Mon Dec 29 16:49:07 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_vk_64\nvidiav1\GLCache\76830935c12161cbda6c9640c05302f7\78f0e6ba7720c694\steamapp_shader_cache0.toc
+Mon Dec 29 16:49:07 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_vk_64\nvidiav1\GLCache\76830935c12161cbda6c9640c05302f7\78f0e6ba7720c694\steamapp_shader_cache0.bin
+Mon Dec 29 16:49:07 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_vk_64\nvidiav1\GLCache\76830935c12161cbda6c9640c05302f7\78f0e6ba7720c694\steamapp_shader_cache0.toc
+Mon Dec 29 16:49:07 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_vk_64\nvidiav1\GLCache\76830935c12161cbda6c9640c05302f7\78f0e6ba7720c694\steamapp_shader_cache0.toc
+Mon Dec 29 16:49:07 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_vk_64\nvidiav1\GLCache\76830935c12161cbda6c9640c05302f7\78f0e6ba7720c694\steamapp_shader_cache0.bin
+Mon Dec 29 16:49:07 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_vk_64\nvidiav1\GLCache\76830935c12161cbda6c9640c05302f7\78f0e6ba7720c694\steamapp_merged_tmp_shader_cache.bin
+Mon Dec 29 16:49:07 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_vk_64\nvidiav1\GLCache\76830935c12161cbda6c9640c05302f7\78f0e6ba7720c694\steamapp_merged_tmp_shader_cache.toc
+Mon Dec 29 16:49:08 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_vk_32\AMDv1\steamapp_shader_cache.parc
+Mon Dec 29 16:49:08 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_vk_32\AMDv1\steamapp_shader_cache.parc
+Mon Dec 29 16:49:08 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_vk_32\nvidiav1\GLCache\ccd3e7755da8d1445fa97972f30c44c7\059c0040a402a290\steamapp_shader_cache0.toc
+Mon Dec 29 16:49:08 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_vk_32\nvidiav1\GLCache\ccd3e7755da8d1445fa97972f30c44c7\059c0040a402a290\steamapp_shader_cache0.bin
+Mon Dec 29 16:49:08 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_vk_32\nvidiav1\GLCache\ccd3e7755da8d1445fa97972f30c44c7\059c0040a402a290\steamapp_merged_tmp_shader_cache.bin
+Mon Dec 29 16:49:08 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\shader_cache_temp_dir_vk_32\nvidiav1\GLCache\ccd3e7755da8d1445fa97972f30c44c7\059c0040a402a290\steamapp_merged_tmp_shader_cache.toc
+Mon Dec 29 16:49:39 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\.writable
+Mon Dec 29 16:49:39 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\.writable
+Mon Dec 29 16:49:39 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\steamapps\libraryfolders.vdf.async27920.tmp
+Mon Dec 29 16:49:39 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\steamapps\libraryfolders.vdf~RF1f9747.TMP
+Mon Dec 29 16:49:39 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\config\libraryfolders.vdf.async27920.tmp
+Mon Dec 29 16:49:39 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\config\libraryfolders.vdf~RF1f9747.TMP
+Mon Dec 29 16:49:41 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\userdata\1473117774\config\licensecache.async27920.tmp
+Mon Dec 29 16:49:41 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\userdata\1473117774\config\licensecache~RF1f9e9a.TMP
+Mon Dec 29 16:49:41 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\config\config.vdf.async27920.tmp
+Mon Dec 29 16:49:41 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\config\config.vdf~RF1f9eaa.TMP
+Mon Dec 29 16:49:41 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\.writable
+Mon Dec 29 16:49:41 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\userdata\1473117774\config\licensecache.async27920.tmp
+Mon Dec 29 16:49:41 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\userdata\1473117774\config\licensecache~RF1fa021.TMP
+Mon Dec 29 16:49:42 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\.writable
+Mon Dec 29 16:49:42 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\.writable
+Mon Dec 29 16:49:42 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\userdata\1473117774\config\localconfig.vdf.async27920.tmp
+Mon Dec 29 16:49:42 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\userdata\1473117774\config\localconfig.vdf~RF1fa33e.TMP
+Mon Dec 29 16:49:42 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\steamapps\workshop\appworkshop_431960.acf.async27920.tmp
+Mon Dec 29 16:49:42 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\steamapps\workshop\appworkshop_431960.acf~RF1fa39c.TMP
+Mon Dec 29 16:49:43 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\userdata\1473117774\config\localconfig.vdf.async27920.tmp
+Mon Dec 29 16:49:43 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\userdata\1473117774\config\localconfig.vdf~RF1fa551.TMP
+Mon Dec 29 16:49:43 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\.writable
+Mon Dec 29 16:49:43 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\.writable
+Mon Dec 29 16:49:43 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\userdata\1473117774\7\remote\serverbrowser_hist.vdf.stmp
+Mon Dec 29 16:49:43 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\userdata\1473117774\7\remote\serverbrowser_hist.vdf~RF1fa6e7.TMP
+Mon Dec 29 16:49:43 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\.writable
+Mon Dec 29 16:49:43 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\.writable
+Mon Dec 29 16:49:43 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\.writable
+Mon Dec 29 16:49:43 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\.writable
+Mon Dec 29 16:49:43 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\userdata\1473117774\config\localconfig.vdf.async27920.tmp
+Mon Dec 29 16:49:43 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\userdata\1473117774\config\localconfig.vdf~RF1fa764.TMP
+Mon Dec 29 16:49:43 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\.writable
+Mon Dec 29 16:49:43 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\.writable
+Mon Dec 29 16:49:44 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\userdata\1473117774\config\localconfig.vdf.async27920.tmp
+Mon Dec 29 16:49:44 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\userdata\1473117774\config\localconfig.vdf~RF1fa9a6.TMP
+Mon Dec 29 16:49:44 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\.writable
+Mon Dec 29 16:49:44 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\.writable
+Mon Dec 29 16:49:45 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\userdata\1473117774\config\localconfig.vdf.async27920.tmp
+Mon Dec 29 16:49:45 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\userdata\1473117774\config\localconfig.vdf~RF1fad6f.TMP
+Mon Dec 29 16:49:45 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\.writable
+Mon Dec 29 16:49:45 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\.writable
+Mon Dec 29 16:49:45 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\userdata\1119530825\2824660\ac\WinAppDataLocalLow\Frozen Lake Games\Old School Rally\OSR_Profile.bin
+Mon Dec 29 16:49:45 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\userdata\1119530825\3077570\ac\MacAppSupport\SKOOTA GAMES\MomottoCrash\76561199079796553\SaveData.sav
+Mon Dec 29 16:51:52 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\temp.zip
+Mon Dec 29 16:51:52 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\xinput1_4.dll
+Mon Dec 29 16:51:52 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\hid.dll
+Tue Dec 30 17:35:18 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\temp.zip
+Tue Dec 30 17:35:19 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\xinput1_4.dll
+Tue Dec 30 17:35:19 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\hid.dll
+Tue Dec 30 17:35:42 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\temp.zip
+Tue Dec 30 17:35:42 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\xinput1_4.dll
+Tue Dec 30 17:35:42 2025 - [BARU] File terdeteksi: C:\Program Files (x86)\Steam\hid.dll

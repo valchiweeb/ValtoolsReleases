@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src https:;">
+    <title>Steam Manifest Injector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Title Bar -->
+    <div class="title-bar">
+        <div class="title-bar-drag">
+            <span class="app-title">🎮 Steam Manifest Injector</span>
+        </div>
+        <div class="window-controls">
+            <button class="window-btn minimize" id="minimize-btn">─</button>
+            <button class="window-btn maximize" id="maximize-btn">□</button>
+            <button class="window-btn close" id="close-btn">✕</button>
+        </div>
+    </div>
+
+    <div class="app-container">
+        <!-- Top Actions Bar -->
+        <div class="actions-bar">
+            <button class="action-btn steamtools-btn" id="activate-inject-btn">
+                <span class="action-icon">🔓</span>
+                <span>Activate Inject</span>
+            </button>
+            <button class="action-btn restart-btn" id="restart-steam-btn">
+                <span class="action-icon">🔄</span>
+                <span>Restart Steam</span>
+            </button>
+            <button class="action-btn settings-btn" id="settings-btn">
+                <span class="action-icon">⚙️</span>
+                <span>Settings</span>
+            </button>
+        </div>
+
+        <!-- Main Section -->
+        <div class="main-section">
+            <!-- Game Injection Card -->
+            <div class="card injection-card">
+                <div class="card-header">
+                    <span class="card-icon">🎮</span>
+                    <h2>Game Injection</h2>
+                </div>
+
+                <div class="info-box">
+                    <span class="info-icon">ℹ️</span>
+                    <span>Enter your <strong>Game ID</strong> (ending with 0) to inject or remove</span>
+                </div>
+
+                <div class="input-group">
+                    <label>GAME ID</label>
+                    <input type="text" id="game-id" placeholder="1245670" autocomplete="off">
+                </div>
+
+                <div class="game-info" id="game-info" style="display: none;">
+                    <div class="game-name" id="game-name">Loading...</div>
+                    <div class="dlc-count" id="dlc-count">0 DLC detected</div>
+                </div>
+
+                <div class="button-group">
+                    <button class="btn btn-add" id="add-btn">
+                        <span>+</span> ADD GAME
+                    </button>
+                    <button class="btn btn-delete" id="delete-btn">
+                        <span>🗑️</span> DELETE
+                    </button>
+                </div>
+
+                <div class="status-message" id="status-message"></div>
+            </div>
+
+            <!-- How to Use Card -->
+            <div class="card how-to-card">
+                <h2>How to Use</h2>
+
+                <div class="step step-1">
+                    <span class="step-number">1</span>
+                    <span>Enter the Game ID (must end with 0)</span>
+                </div>
+
+                <div class="step step-2">
+                    <span class="step-number">2</span>
+                    <span>Click "Add Game" to inject the game</span>
+                </div>
+
+                <div class="step step-3">
+                    <span class="step-number">3</span>
+                    <span>Use "Delete" to remove injected game</span>
+                </div>
+
+                <div class="step step-4">
+                    <span class="step-number">4</span>
+                    <span>Restart Steam to apply changes</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Settings Modal -->
+    <div class="modal" id="settings-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>⚙️ Settings</h3>
+                <button class="modal-close" id="close-settings">✕</button>
+            </div>
+            <div class="modal-body">
+                <div class="setting-group">
+                    <label>Steam Installation Path</label>
+                    <div class="path-input-row">
+                        <input type="text" id="custom-steam-path" placeholder="C:\Program Files (x86)\Steam">
+                        <button class="btn-browse" id="browse-path-btn">📁 Browse</button>
+                    </div>
+                    <small>Leave empty for auto-detect</small>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-save" id="save-settings">💾 Save Settings</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Download Progress Modal -->
+    <div class="modal" id="download-modal">
+        <div class="modal-content download-content">
+            <div class="download-icon">⬇️</div>
+            <h3>Downloading SteamTools...</h3>
+            <div class="progress-bar">
+                <div class="progress-fill" id="download-progress"></div>
+            </div>
+            <div class="progress-text" id="progress-text">0%</div>
+        </div>
+    </div>
+
+    <!-- Toast -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loading-overlay" style="display: none;">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Processing...</div>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+
+</html>
