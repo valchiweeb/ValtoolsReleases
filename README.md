@@ -7,7 +7,6 @@ Download the latest release from the Releases page.
   - Automatic DLC detection
   - One-click Activate Inject
   - Restart Steam from app
-  - Integrate With Online-fix.me ( Coming Soon )
 
 ### How to Use
 1. Open Game Injection menu
@@ -15,4 +14,5 @@ Download the latest release from the Releases page.
 3. Enter Game ID
 4. Click 'Add Game'
 5. Restart Steam
+
 
